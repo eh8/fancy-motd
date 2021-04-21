@@ -10,8 +10,6 @@ WIDTH=50
 
 # Services to show
 declare -A services
-services["nginx"]="nginx"
-services["Docker"]="docker"
 services["SSH"]="sshd"
 services["Fail2Ban"]="fail2ban"
 services["UFW"]="ufw"
